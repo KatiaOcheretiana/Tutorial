@@ -5,8 +5,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>Привіт</h1>
+    <!-- HEADER NAVIGATION -->
+    <header class="header">
+      <div class="container header-container">
+        <a class="logo-text link" href="./index.html">
+          <img
+            class="logo-img"
+            src="./image/Group190.svg"
+            alt="logo"
+            width="40"
+            height="36"
+          />Product</a
+        >
+        <nav class="header-nav">
+          <ul class="header-list list">
+            <li class="header-item">
+              <a class="header-link link" href="">Product</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Customers</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Pricing</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link link" href="">Resorces</a>
+            </li>
+          </ul>
+        </nav>
+        <section class="header-btm">
+          <button class="btn-in" type="button">Sing In</button>
+          <button class="btn-up" type="button">Sign Up</button>
+        </section>
+      </div>
+    </header>
+    <main>
+      <!-- PRICING -->
+      <section class="pricing">
+        <div class="container">
+          <h2 class="section-title pricing-title">PRICING</h2>
+          <h3 class="section-title-text pricing-title-text">
+            Let’s get some real work done here.
+          </h3>
+          <p class="section-item pricing-item">
+            Prodict is your perfect solution for working. Get started now for
+            free
+          </p>
+          <div class="price-packets">
+            <div class="price-block">
+              <h2 class="price-block-title">Free</h2>
+              <h3 class="block-title-text">Brief price description</h3>
+              <p class="price-block-number">
+                0 <sup>&#36;</sup> <span class="price-period">Per / month</span>
+              </p>
+              <ul class="price-options-list list">
+                <li class="price-options">Only 2 Operators</li>
+                <li class="price-options">Notifications</li>
+                <li class="price-options-last">Landing Pages</li>
+              </ul>
+              <button class="price-btn" type="button">Order Now</button>
+            </div>
+            <div class="price-block price-block-middle">
+              <h2 class="price-block-title">Standard</h2>
+              <h3 class="block-title-text">Brief price description</h3>
+              <p class="price-block-number mumber-middle">
+                5 <sup class="sup-middle">&#36;</sup>
+                <span class="price-period">Per / month</span>
+              </p>
+              <ul class="price-options-list list">
+                <li class="price-options">5+ Operators</li>
+                <li class="price-options">Notifications</li>
+                <li class="price-options-last">Landing Pages</li>
+              </ul>
+              <button class="price-btn price-btn-middle" type="button">
+                Order Now
+              </button>
+            </div>
+            <div class="price-block">
+              <h2 class="price-block-title">Premium</h2>
+              <h3 class="block-title-text">Brief price description</h3>
+              <p class="price-block-number">
+                10 <sup>&#36;</sup>
+                <span class="price-period">Per / month</span>
+              </p>
+              <ul class="price-options-list list">
+                <li class="price-options">Only 3 Operators</li>
+                <li class="price-options">Notifications</li>
+                <li class="price-options-last">Landing Pages</li>
+              </ul>
+              <button class="price-btn" type="button">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ENTERPRISE -->
+      <section class="enterprise">
+        <div class="container">
+          <h2 class="section-title enterprise-title">ENTERPRISE</h2>
+          <h3 class="section-title-text enterprise-title-text">
+            Are you interested in a custom-tailored plan?
+          </h3>
+          <p class="section-item enterprise--item">
+            Product is a set of advanced features for really large teams with
+            projects.
+          </p>
+          <button type="button">Get in touch with us</button>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
