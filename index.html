@@ -24,7 +24,7 @@
     <!-- HEADER NAVIGATION -->
     <header class="header">
       <div class="container header-container">
-        <a class="logo-text link" href="./index.html">
+        <a class="logo-text logo-text-header link" href="./index.html">
           <img
             class="logo-img"
             src="./image/Group190.svg"
@@ -42,7 +42,7 @@
               <a class="header-link link" href="">Customers</a>
             </li>
             <li class="header-item">
-              <a class="header-link link" href="">Pricing</a>
+              <a class="header-link link current" href="">Pricing</a>
             </li>
             <li class="header-item">
               <a class="header-link link" href="">Resorces</a>
@@ -71,9 +71,12 @@
             <div class="price-block">
               <h2 class="price-block-title">Free</h2>
               <h3 class="block-title-text">Brief price description</h3>
-              <p class="price-block-number">
-                0 <sup>&#36;</sup> <span class="price-period">Per / month</span>
-              </p>
+              <div class="price-box">
+                <p class="price-block-number">
+                  0 <sup>&#36;</sup>
+                  <span class="price-period">Per / month</span>
+                </p>
+              </div>
               <ul class="price-options-list list">
                 <li class="price-options">Only 2 Operators</li>
                 <li class="price-options">Notifications</li>
@@ -84,10 +87,12 @@
             <div class="price-block price-block-middle">
               <h2 class="price-block-title">Standard</h2>
               <h3 class="block-title-text">Brief price description</h3>
-              <p class="price-block-number mumber-middle">
-                5 <sup class="sup-middle">&#36;</sup>
-                <span class="price-period">Per / month</span>
-              </p>
+              <div class="price-box">
+                <p class="price-block-number mumber-middle">
+                  5 <sup class="sup-middle">&#36;</sup>
+                  <span class="price-period">Per / month</span>
+                </p>
+              </div>
               <ul class="price-options-list list">
                 <li class="price-options">5+ Operators</li>
                 <li class="price-options">Notifications</li>
@@ -100,10 +105,12 @@
             <div class="price-block">
               <h2 class="price-block-title">Premium</h2>
               <h3 class="block-title-text">Brief price description</h3>
-              <p class="price-block-number">
-                10 <sup>&#36;</sup>
-                <span class="price-period">Per / month</span>
-              </p>
+              <div class="price-box">
+                <p class="price-block-number">
+                  10 <sup>&#36;</sup>
+                  <span class="price-period">Per / month</span>
+                </p>
+              </div>
               <ul class="price-options-list list">
                 <li class="price-options">Only 3 Operators</li>
                 <li class="price-options">Notifications</li>
@@ -116,7 +123,7 @@
       </section>
       <!-- ENTERPRISE -->
       <section class="enterprise">
-        <div class="container">
+        <div class="container container-interprise">
           <h2 class="section-title enterprise-title">ENTERPRISE</h2>
           <h3 class="section-title-text enterprise-title-text">
             Are you interested in a custom-tailored plan?
@@ -125,9 +132,208 @@
             Product is a set of advanced features for really large teams with
             projects.
           </p>
-          <button type="button">Get in touch with us</button>
+          <button type="button" class="btn-enterprise">
+            Get in touch with us
+          </button>
+        </div>
+      </section>
+
+      <!-- EFFECTS -->
+      <section class="effects">
+        <div class="container effects-container">
+          <h2 class="section-title effects-title">
+            Product is being used with great effects alongside:
+          </h2>
+          <div class="effects-container-box">
+            <div class="effects-img">
+              <img src="./image/amico.jpg" alt="picture" />
+            </div>
+            <div class="container-effects-list">
+              <ul class="effects-list list">
+                <li class="effects-list-item">
+                  <div class="before-icons">
+                    <svg class="btn-svg-effects" width="50" height="50">
+                      <use href="./image/icons.svg#icon-Feature1"></use>
+                    </svg>
+
+                    <h3 class="effects-list-title">Enterpreneur</h3>
+                  </div>
+                  <p class="effects-list-text">
+                    Product is a great way to help medium and samall enterprise
+                    owners achieve their goals
+                  </p>
+                </li>
+                <li class="effects-list-item">
+                  <div class="before-icons">
+                    <svg class="btn-svg-effects" width="50" height="50">
+                      <use href="./image/icons.svg#icon-Feature2"></use>
+                    </svg>
+
+                    <h3 class="effects-list-title">Accountants</h3>
+                  </div>
+                  <p class="effects-list-text">
+                    Whether you are working on contract with clients, or on
+                    other key accounting documents, Product is for you
+                  </p>
+                </li>
+                <li class="effects-list-item">
+                  <div class="before-icons">
+                    <svg class="btn-svg-effects" width="50" height="50">
+                      <use href="./image/icons.svg#icon-Feature3"></use>
+                    </svg>
+
+                    <h3 class="effects-list-title">Universities</h3>
+                  </div>
+                  <p class="effects-list-text">
+                    Organize university projects and have documents easily
+                    graded online with Product
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- QUESTION -->
+      <section class="question">
+        <div class="container question-container">
+          <h2 class="section-title question-title">
+            Frequently asked question
+          </h2>
+          <h3 class="section-title-text question-title-text">
+            Something is not clear? You need help? Check our FAQ section
+          </h3>
+          <ul class="question-list list">
+            <li class="question-list-item">
+              <h3 class="question-list-title">What are my payment option?</h3>
+            </li>
+            <li class="question-list-item">
+              <h3 class="question-list-title">
+                How can I invite collaborator to platform?
+              </h3>
+            </li>
+            <li class="question-list-item">
+              <h3 class="question-list-title">Can I upgrade my plan?</h3>
+            </li>
+            <li class="question-list-item">
+              <h3 class="question-list-title">
+                Can I cancel my plan at anytime?
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- JOIN CARD -->
+      <section class="join-card">
+        <div class="container join-container">
+          <div>
+            <h2 class="join-card-title">
+              Join 100 Compannies who boost their business with Product
+            </h2>
+            <button class="btn-join" type="button">Get This</button>
+          </div>
+          <img class="join-card-picture" src="./image/screen.png" width="361" alt="picture" />
         </div>
       </section>
     </main>
+    <!-- FOOTER -->
+    <footer>
+      <section class="footer">
+        <div class="container footer-container footer">
+          <div class="footer-soc"></div><a class="logo-text logo-text-footer link" href="./index.html">
+            <img
+              class="logo-img"
+              src="./image/Group190.svg"
+              alt="logo"
+              width="40"
+              height="36"
+            />Product</a
+          >
+          
+            <ul class="footer-soc-list list">
+              <li class="footer-soc-item">
+                <a
+                  href=""
+                  class="footer-soc-link link"
+                  target="_blank"
+                  rel="noopener no-referrer"
+                >
+                  <svg class="footer-soc-icon" width="24" height="24">
+                    <use href="./image/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a
+                  href=""
+                  class="footer-soc-link link"
+                  target="_blank"
+                  rel="noopener no-referrer"
+                >
+                  <svg class="footer-soc-icon" width="24" height="24">
+                    <use href="./image/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a
+                  href=""
+                  class="footer-soc-link link"
+                  target="_blank"
+                  rel="noopener no-referrer"
+                >
+                  <svg class="footer-soc-icon" width="22" height="17.94">
+                    <use href="./image/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-inform">
+          <div class="footer-resource">
+            <h3 class="footer-title">Resource</h3>
+            <ul class="footer-list list">
+              <li class="footer-list item">
+                <a class="footer-link link" href="">About Us</a>
+              </li>
+              <li class="footer-list item">
+                <a class="footer-link link" href="">Blog</a>
+              </li>
+              <li class="footer-list item">
+                <a class="footer-link link" href="">Contact</a>
+              </li>
+              <li class="footer-list item">
+                <a class="footer-link link" href="">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-stuff">
+            <h3 class="footer-title">Legal Stuff</h3>
+            <ul class="footer-list list">
+              <li class="footer-list item">
+                <a class="footer-link link" href="">Disclaimer</a>
+              </li>
+              <li class="footer-list item">
+                <a class="footer-link link" href="">Financing</a>
+              </li>
+              <li class="footer-list item">
+                <a class="footer-link link" href="">Privacy Policy</a>
+              </li>
+              <li class="footer-list item">
+                <a class="footer-link link" href="">Terms of Service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="get-in-touch">
+            <h3 class="touch-text">knowing you're always on the best energy deal.</h3>
+            <button class="btn-footer" type="button">Sign up Now</button>
+          </div>
+          </div>
+          
+        </div>
+        <div class="bottom-footer-container container">
+        <p class="bottom-footer">Made With Love By Figmaland All Right Reserved </p>
+      </div></section>
+    </footer>
   </body>
 </html>
