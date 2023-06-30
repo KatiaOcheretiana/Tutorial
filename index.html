@@ -39,7 +39,7 @@
               <a class="header-link link" href="">Product</a>
             </li>
             <li class="header-item">
-              <a class="header-link link" href="">Customers</a>
+              <a class="header-link link" href="./customers.html">Customers</a>
             </li>
             <li class="header-item">
               <a class="header-link link current" href="">Pricing</a>
@@ -132,9 +132,7 @@
             Product is a set of advanced features for really large teams with
             projects.
           </p>
-          <button type="button" class="btn-enterprise">
-            Get in touch with us
-          </button>
+          <button type="button" class="btn-touch">Get in touch with us</button>
         </div>
       </section>
 
@@ -206,11 +204,52 @@
           <ul class="question-list list">
             <li class="question-list-item">
               <h3 class="question-list-title">What are my payment option?</h3>
+              <span class="readmore__content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                nihil esse tempora quas? Nesciunt facilis aspernatur officia
+                voluptates in laborum dolorum possimus tempore. Delectus
+                perspiciatis vero, doloribus iusto quisquam sapiente. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Ea
+                voluptatibus numquam iure vero cumque laboriosam cupiditate
+                voluptatem facilis nemo magnam. Iusto sunt repellendus neque
+                deleniti quae, ab est quo perspiciatis! Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit. Neque laudantium velit
+                corrupti debitis ipsum iure sunt magni unde incidunt expedita
+                consequuntur officiis ex, dolorum reprehenderit facilis itaque
+                repudiandae rem tempore! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Ipsam, architecto. Saepe incidunt earum,
+                voluptates pariatur sequi, eaque fugiat sint vitae perspiciatis
+                optio distinctio fuga molestiae, qui ipsa nulla hic et? Lorem
+                ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate,
+                magnam quam earum corporis, quo ut sed itaque provident incidunt
+                quod expedita perferendis optio eos dolores iste qui totam
+                veniam consequuntur!
+              </span>
+              <button
+                class="readmore__toggle"
+                role="switch"
+                aria-checked="true"
+              >
+                +
+              </button>
             </li>
             <li class="question-list-item">
               <h3 class="question-list-title">
                 How can I invite collaborator to platform?
               </h3>
+              <input
+                type="checkbox"
+                class="read-more-state jcf-hidden"
+                id="following-content"
+              />
+              <p class="read-more-target">
+                After creating your account you will have an oppurtunity to
+                create your first project that will be associated withthe
+                collaborators e-mail. An invitation will be sent automatically.
+                Then, invited user will have to confirm his account by e-mail
+                and finish userd onboarding.
+              </p>
+              <label for="following-content" class="read-more-trigger"></label>
             </li>
             <li class="question-list-item">
               <h3 class="question-list-title">Can I upgrade my plan?</h3>
@@ -232,7 +271,12 @@
             </h2>
             <button class="btn-join" type="button">Get This</button>
           </div>
-          <img class="join-card-picture" src="./image/screen.png" width="361" alt="picture" />
+          <img
+            class="join-card-picture"
+            src="./image/screen.png"
+            width="361"
+            alt="picture"
+          />
         </div>
       </section>
     </main>
@@ -240,16 +284,17 @@
     <footer>
       <section class="footer">
         <div class="container footer-container footer">
-          <div class="footer-soc"></div><a class="logo-text logo-text-footer link" href="./index.html">
-            <img
-              class="logo-img"
-              src="./image/Group190.svg"
-              alt="logo"
-              width="40"
-              height="36"
-            />Product</a
-          >
-          
+          <div class="footer-soc">
+            <a class="logo-text logo-text-footer link" href="./index.html">
+              <img
+                class="logo-img"
+                src="./image/Group190.svg"
+                alt="logo"
+                width="40"
+                height="36"
+              />Product</a
+            >
+
             <ul class="footer-soc-list list">
               <li class="footer-soc-item">
                 <a
@@ -290,50 +335,63 @@
             </ul>
           </div>
           <div class="footer-inform">
-          <div class="footer-resource">
-            <h3 class="footer-title">Resource</h3>
-            <ul class="footer-list list">
-              <li class="footer-list item">
-                <a class="footer-link link" href="">About Us</a>
-              </li>
-              <li class="footer-list item">
-                <a class="footer-link link" href="">Blog</a>
-              </li>
-              <li class="footer-list item">
-                <a class="footer-link link" href="">Contact</a>
-              </li>
-              <li class="footer-list item">
-                <a class="footer-link link" href="">FAQ</a>
-              </li>
-            </ul>
+            <div class="footer-resource">
+              <h3 class="footer-title">Resource</h3>
+              <ul class="footer-list list">
+                <li class="footer-list-item">
+                  <a class="footer-link link" href="">About Us</a>
+                </li>
+                <li class="footer-list-item">
+                  <a class="footer-link link" href="">Blog</a>
+                </li>
+                <li class="footer-list item">
+                  <a class="footer-link link" href="">Contact</a>
+                </li>
+                <li class="footer-list item">
+                  <a class="footer-link link" href="">FAQ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-stuff">
+              <h3 class="footer-title">Legal Stuff</h3>
+              <ul class="footer-list list">
+                <li class="footer-list-item">
+                  <a class="footer-link link" href="">Disclaimer</a>
+                </li>
+                <li class="footer-list-item">
+                  <a class="footer-link link" href="">Financing</a>
+                </li>
+                <li class="footer-list-item">
+                  <a class="footer-link link" href="">Privacy Policy</a>
+                </li>
+                <li class="footer-list-item">
+                  <a class="footer-link link" href="">Terms of Service</a>
+                </li>
+              </ul>
+            </div>
+            <div class="get-in-touch">
+              <form>
+                <h3 class="touch-text">
+                  knowing you're always on the best energy deal.
+                </h3>
+                <input
+                  class="footer-input"
+                  type="email"
+                  name="user-email"
+                  placeholder="E-mail"
+                />
+                <button class="btn-footer" type="submit">Sign up Now</button>
+              </form>
+            </div>
           </div>
-          <div class="footer-stuff">
-            <h3 class="footer-title">Legal Stuff</h3>
-            <ul class="footer-list list">
-              <li class="footer-list item">
-                <a class="footer-link link" href="">Disclaimer</a>
-              </li>
-              <li class="footer-list item">
-                <a class="footer-link link" href="">Financing</a>
-              </li>
-              <li class="footer-list item">
-                <a class="footer-link link" href="">Privacy Policy</a>
-              </li>
-              <li class="footer-list item">
-                <a class="footer-link link" href="">Terms of Service</a>
-              </li>
-            </ul>
-          </div>
-          <div class="get-in-touch">
-            <h3 class="touch-text">knowing you're always on the best energy deal.</h3>
-            <button class="btn-footer" type="button">Sign up Now</button>
-          </div>
-          </div>
-          
         </div>
         <div class="bottom-footer-container container">
-        <p class="bottom-footer">Made With Love By Figmaland All Right Reserved </p>
-      </div></section>
+          <p class="bottom-footer">
+            Made With Love By Figmaland All Right Reserved
+          </p>
+        </div>
+      </section>
     </footer>
+    <script src="./js/readmore.js"></script>
   </body>
 </html>
